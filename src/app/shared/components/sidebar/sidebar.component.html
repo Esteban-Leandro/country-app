@@ -3,11 +3,11 @@
 <hr>
 
 <ul class="list-group">
-    <li class="list-group-item" *ngFor="let route of ['', 'about', 'contact']"
-        [routerLink]="[ route ]" 
+    <li class="list-group-item" *ngFor="let route of routes"
+        [routerLink]="[ route.path ]" 
         routerLinkActive="active" 
         [routerLinkActiveOptions]="{ exact: true }">
-        {{ route || 'Home' | titlecase }} Page
+        {{ route.name| titlecase }}
     </li>
 
 </ul>
