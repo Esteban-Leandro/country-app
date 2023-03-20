@@ -8,18 +8,18 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
   routes: Routes[] = [
-    {
-      path: '',
-      name: 'Home'
-    },
-    {
-      path: 'about',
-      name: 'about'
-    },
-    {
-      path: 'contact',
-      name: 'contact'
-    },
+    // {
+    //   path: '',
+    //   name: 'Home'
+    // },
+    // {
+    //   path: 'about',
+    //   name: 'about'
+    // },
+    // {
+    //   path: 'contact',
+    //   name: 'contact'
+    // },
     {
       path: 'countries/by-capital',
       name: 'por Capital'
