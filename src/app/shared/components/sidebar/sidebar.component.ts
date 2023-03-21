@@ -30,7 +30,7 @@ export class SidebarComponent {
     },
     {
       path: 'countries/by-region',
-      name: 'por region'
+      name: 'por región'
     },
 
   ]
