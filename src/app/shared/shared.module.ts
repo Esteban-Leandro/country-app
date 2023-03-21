@@ -7,6 +7,7 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
+import { LoadingSpinnnerComponent } from './components/loading-spinnner/loading-spinnner.component';
 
 
 
@@ -15,6 +16,7 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
     AboutPageComponent,
     ContactPageComponent,
     HomePageComponent,
+    LoadingSpinnnerComponent,
     SearchBoxComponent,
     SidebarComponent,
   ],
@@ -26,6 +28,7 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
     AboutPageComponent,
     ContactPageComponent,
     HomePageComponent,
+    LoadingSpinnnerComponent,
     SearchBoxComponent,
     SidebarComponent,
 
