@@ -1,4 +1,4 @@
-import { Country } from './../../interfaces/countries';
+import { Country } from '../../interfaces/country.interface.ts';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { CountriesService } from '../../services/countries.service';
